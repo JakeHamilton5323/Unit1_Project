@@ -1,0 +1,126 @@
+* {
+  text-decoration: none;
+}
+
+body {
+  /* background-color: f3f3f3; */
+
+}
+
+header {
+  background-color: #C0C0C0;
+  width:100%;
+  height:100px;
+}
+header a:hover{
+ color: Red;
+}
+
+header #jhlogo: {
+/* font-family:arial;
+font-size: 26px;
+font color: Red;
+display:block;
+margin: 0,auto;
+text-align: center;
+padding:20px 0; */
+padding: 20px;
+margin-top: 20px;
+}
+header .Quote {
+  font-family:arial;
+  font-size: 20px;
+  font color: white;
+  float:right;
+  font-weight: bold;
+}
+header nav ul {
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+  font-weight: bold;
+  font color: white;
+
+
+}
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+  position: relative;
+
+}
+header nav ul li ul {
+  display:none;
+  position: absolute;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+header nav ul li ul li a:hover {
+background-color: #f3f3f3
+}
+
+header nav ul a {
+  display: block;
+  font-family:arial;
+  font-size: 20px;
+  font color: white;
+
+}
+.index-banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("images/whales.jpeg");
+  /* filter: blur(8px); */
+  background-blend-mode: soft-light;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.index-banner h2 {
+  font-size: 30px;
+  font color: white;
+  text-align: center;
+  font-weight: 700;
+  text-shadow: 1px 1px 6px #111;
+}
+
+
+.domain {
+  color: Red;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  background-color: #A9A9A9;
+}
+footer ul {
+width: auto;
+}
+
+footer ul li {
+  display: block;
+  font-size: 20px;
+}
+footer h4 {
+  font-size: 30px;
+  font-style: oblique;
+}
+.Quote {
+  margin-right: 40px;
+}
+iframe:{
+float: right;
+}
+.video {
+  text-align: center;
+  margin-top: 30px;
+}
